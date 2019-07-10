@@ -1,0 +1,23 @@
+html {
+    text-align: center;
+	position: absolute;
+	top: 40%;
+    left: 50%;
+    transform: translate( -40%, -50% );
+    background: #3F3F3F;
+}
+
+.h1 {
+    color: aliceblue;
+    font-size: 80px;
+}
+
+.ip1 {
+    color: black;
+}
+
+.ip1:hover {
+    color: red;
+    font-size: 20px;
+    transition: 1s;
+}

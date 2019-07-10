@@ -1,0 +1,44 @@
+h1 {
+    color: white;
+    font-size: 150px;
+    padding-top: 100px;
+}
+
+a:link {
+    color: white;
+}
+
+.a1:visited, .a2:visited {
+    color: black;
+}
+
+.a4:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+} 
+
+.a1 {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 28px;
+}
+
+.a2 {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.a3 {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.a4 {
+    font-size: 15px;
+    text-decoration: none;
+}

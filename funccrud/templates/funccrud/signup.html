@@ -1,6 +1,15 @@
 {% block content %}
-
-<h1>회원가입</h1>
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+</head>
+<body>
+<h1 class="h1">회원가입</h1>
 
 <form method="POST" action="{% url 'signup'%}">
 
@@ -18,7 +27,9 @@ Confirm Password:
 <input name="password2"  type="password" value="">
 <br>
 <br>
-<input type="submit" value="Sign Up!">
+<input class="ip1" type="submit" value="Sign Up!">
 </form>
 
 {% endblock %}
+</body>
+</html>

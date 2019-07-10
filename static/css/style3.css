@@ -1,0 +1,21 @@
+html {
+    text-align: center;
+}
+
+html:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.a2 {
+    font-size: 50px;
+    text
+}
+
+a:visited {
+    color: black;
+}
